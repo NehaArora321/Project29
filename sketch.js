@@ -68,6 +68,7 @@ function setup() {
 function draw() {
   background(56,44,44);  
   drawSprites();
+  text("Drag the Hexagonal stone and release it, to launch it towards the blocks",50,50);
   Engine.update(engine);
 
   ground1.display();
